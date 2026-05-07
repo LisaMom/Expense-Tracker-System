@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/tabulate-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/tabulate",
+			"exportName" : "tabulateTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "tabulate::@f577248e0aae2aef4ba1",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/tabulate-build/CMakeFiles/Export/lib/cmake/tabulate/tabulateTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/tabulate",
+			"paths" : 
+			[
+				"build/_deps/tabulate-build/tabulateConfig.cmake",
+				"build/_deps/tabulate-build/tabulateConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/_deps/tabulate-src/include/tabulate"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/tabulate-build",
+		"source" : "build/_deps/tabulate-src"
+	}
+}
