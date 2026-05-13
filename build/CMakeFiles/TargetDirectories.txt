@@ -1,0 +1,8 @@
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/expense_tracker.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/test.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/edit_cache.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/rebuild_cache.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/list_install_components.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/install.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/install/local.dir
+/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/CMakeFiles/install/strip.dir

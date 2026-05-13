@@ -1,0 +1,4 @@
+username,passwordHash,role,fullName,email,active,createdAt
+admin,001ae41ca63f45da,ADMIN,System Administrator,admin@expensetracker.com,1,2026-05-09
+alice,001ae41edfd93f77,USER,Alice Johnson,alice@example.com,1,2026-05-09
+bob,000006525972d91a,USER,Bob Smith,bob@example.com,1,2026-05-09
