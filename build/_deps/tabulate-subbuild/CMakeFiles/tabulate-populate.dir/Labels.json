@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/CMakeFiles/tabulate-populate"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/CMakeFiles/tabulate-populate.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/CMakeFiles/tabulate-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-build.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-download.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-install.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-test.rule"
+		},
+		{
+			"file" : "/Users/macbookpro/Documents/bcs-A1-c++/final-project-c++/build/_deps/tabulate-subbuild/tabulate-populate-prefix/src/tabulate-populate-stamp/tabulate-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tabulate-populate"
+		],
+		"name" : "tabulate-populate"
+	}
+}
