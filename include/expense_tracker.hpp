@@ -32,21 +32,26 @@ namespace Color {
 
 
 // The name of the file where we save user accounts
-const string USERS_FILE = "users.csv";
+static string g_dataDir = "data";
 
-string expenseFileFor(const string& username) {
-    return "expenses_" + username + ".csv";
+void setDataDir(const string& exePath) {
+    size_t lastSlash = exePath.find_last_of("/\\");
+    string exeDir = (lastSlash == string::npos) ? "." : exePath.substr(0, lastSlash);
+    g_dataDir = exeDir + "/data";
+    system(("mkdir -p \"" + g_dataDir + "\" 2>/dev/null").c_str());
 }
 
-// How many expenses to show per page
+string USERS_FILE_PATH() { return g_dataDir + "/users.csv"; }
+
+string expenseFileFor(const string& username) {
+    return g_dataDir + "/expenses_" + username + ".csv";
+}
 const int PAGE_SIZE = 5;
 
-// The list of allowed expense categories
 const vector<string> CATEGORIES = {
     "Food", "Transport", "Shopping", "Health",
     "Entertainment", "Education", "Bills", "Other"
 };
-
 
 void clearScreen() {
 #if defined(_WIN32)
@@ -310,7 +315,7 @@ private:
     // Read all users from the CSV file into our list
     void loadUsers() {
         users.clear();
-        ifstream file(USERS_FILE);
+        ifstream file(USERS_FILE_PATH());
         if (!file.is_open()) return;  // if file does not exist, skip
 
         string line;
@@ -327,7 +332,7 @@ private:
 
     // Write all users from memory into the CSV file
     void saveUsers() const {
-        ofstream file(USERS_FILE);
+        ofstream file(USERS_FILE_PATH());
         file << "username,password_hash,role,created\n";  // write header
         for (const User& u : users) {
             file << u.toCSV() << "\n";
@@ -336,7 +341,7 @@ private:
 
     // Create default accounts if no users file exists yet
     void createDefaultAccounts() {
-        ifstream file(USERS_FILE);
+        ifstream file(USERS_FILE_PATH());
         if (file.good()) {
             // File already exists, just load it
             loadUsers();

@@ -692,7 +692,8 @@ public:
     }
 };
 
-int main() {
+int main(int argc, char* argv[]) {
+    setDataDir(argc > 0 ? argv[0] : ".");
     ExpenseTrackerApp app;
     app.run();
     return 0;
