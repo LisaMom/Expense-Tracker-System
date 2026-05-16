@@ -1,5 +1,6 @@
 username,password_hash,role,created
-"admin","00000000185030e4","admin","2026-05-10 23:53:10"
-"student1","000000009bdf7f72","student","2026-05-10 23:53:10"
+"admin","00000000185030e4","admin","2026-05-10 23:53:10
+"
+"student1","000000009bdf7f72","student","2026-05-10 23:53:10
+"
 "maria","037771422b4c3708","student","2026-05-11 18:02:53"
-"memo","0000d0b4bdd6b035","student","13-05-2026 23:16:04"
